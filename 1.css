@@ -23,25 +23,30 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 33px;
+    margin: -1px;
     position: relative;
 }
 
+
 .back-button {
     position: absolute;
-    left: 20px;
+    left: 450px;
     top: 50%;
     transform: translateY(-50%);
     text-decoration: none;
     color: #000;
     font-size: 24px;
+    
 }
 
-header h1 {
+ h1 {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+
 }
+
 
 .profile-section {
     padding: 20px;
@@ -131,6 +136,26 @@ header h1 {
 
 
 }
+.map {
+
+    width: 100%;
+    height: 196px;
+    border-radius: 15px;
+    margin-right: 250px;
+    overflow: hidden;
+    margin-top: 25px;
+    padding-left: 236px;
+    margin-left: -115px;
+}
+   
+    
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .p{
     max-width: 100px;
 
@@ -142,6 +167,7 @@ header h1 {
     width: 666PX;
     
 }
+
 
 
 .book-appointment {
@@ -170,4 +196,14 @@ header h1 {
     .container {
         border-radius: 0;
     }
+}
+.hospital-logo {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.hospital-logo svg {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }

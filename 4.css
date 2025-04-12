@@ -18,7 +18,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
 }
 
 .back-arrow {
@@ -40,7 +40,16 @@ h1 {
     
 
 }
+.hospital-logo {
+    text-align: left;
+    padding: 111px;
+}
 
+.hospital-logo svg {
+    width: 32px;
+    height: 32px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
 
 .notification-card {
     background-color: #b4cff9;
